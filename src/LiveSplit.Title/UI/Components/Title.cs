@@ -184,7 +184,7 @@ public class Title : IComponent
             AttemptCountLabel.Y = height - 40;
             AttemptCountLabel.Width = width - 5;
             AttemptCountLabel.Height = 40;
-            AttemptCountLabel.Font = TitleFont;
+            AttemptCountLabel.Font = state.LayoutSettings.TimesFont;
             AttemptCountLabel.Brush = new SolidBrush(Settings.OverrideTitleColor ? Settings.TitleColor : state.LayoutSettings.TextColor);
             AttemptCountLabel.HasShadow = state.LayoutSettings.DropShadows;
             AttemptCountLabel.ShadowColor = state.LayoutSettings.ShadowsColor;
